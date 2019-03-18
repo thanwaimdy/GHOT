@@ -34,7 +34,7 @@ while cmd != '3':
         print("Bad input! Please try again (Only 1,2,3)")
         os.system('pause')
 
-# now run this code but it was run on only administrator mode.
+# now run this code but it was run in administrator mode.
 #  os.system("netsh wlan set hostednetwork mode=allow ssid=GreenHackers key=12345678")
 #  os.system('netsh wlan start hostednetwork')
 # now all are OK after cmd='0'
