@@ -1,5 +1,5 @@
-# function  (def)
-# GHOT
+# 12.1 function  (def)
+# GHOT 
 
 def function():
     
@@ -60,4 +60,5 @@ print (f())
 print (f. __doc__)  # ans is none what answer
 
 
+# done!. 18031910:51pm . thanks sir AungWinnHtut.
 
