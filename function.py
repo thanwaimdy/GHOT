@@ -22,7 +22,7 @@ def fun(name):
     
 def funy(x):
     y=2*x    # y is function of x
-    print('x = ',y )
+    print('y = ',y )
     
 
 def funadd(x , y):  # input two
@@ -49,16 +49,5 @@ tot=funadd3(20 ,10 ,30)
 print(tot)
     
     
-    
- 
-def f():
-    """return 'Hello world!'"""
-    return "hello world"
-
-
-print (f())
-print (f. __doc__)  # ans is none what answer
-
-
 # done!. 18031910:51pm . thanks sir AungWinnHtut.
 
