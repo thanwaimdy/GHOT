@@ -12,6 +12,7 @@ def enable_wifi_hotspot():   # *** space wasn't accept and used underscore insta
     command = " netsh wlan set hostednetwork mode = allow ssid= " + ssid + " key= " + password
     os.system(command)
     os.system('netsh wlan start hostednetwork')
+    # Network Shell (netsh) window command
         
 def disable_wifi_hotspot():
     print('Stopping Wifi Hotspot....')
