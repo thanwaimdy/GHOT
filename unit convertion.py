@@ -85,7 +85,7 @@ def hp():
     if hosepower == 'x':
         exit()
     else:
-        hosepower = int(hosepower)
+        hosepower = float(hosepower)
         W = (hosepower * 746)
         print('Watt = ' , W , 'W' )
         
@@ -96,7 +96,7 @@ def kw():
     if kw == 'x':
         exit()
     else:
-        kw = int(kw)
+        kw = float(kw)
         hp = (kw / 0.746)
         print('HosePower = ' , hp ,'HP' )      
 """        
