@@ -1,5 +1,6 @@
 
 #Start
+
 print(
 """\n
        #########################
@@ -33,12 +34,25 @@ def c_f():
     fahrenheit = (cel*1.8)+32
     print("Temperature in °F = ", fahrenheit)
 
+def kw_hp():
+    kw = float(input("\nEnter Kilowatt: "))
+    hp = (kw*0.746)
+    print("HosePower = ", hp)
+    
+def hp_kw():
+    hp = float(input("\nEnter HosePower: "))
+    kw = (hp/0.746)
+    print("KiloWatt = ", kw)
 
+
+    
+    
  #creates startup menu
 menu_type=("""
 	1: Length
 	2: Weight
 	3: Temperature
+	4: Power
 	""")
 
 
@@ -85,7 +99,7 @@ if measure==3:
      #menu to chose from either F to C or vice-versa
     print("\n 1: °F to °C")
     print(" 2: °C to °F\n")
-    choice=int(input("Choose a conversion by typing a number: "))
+    choice=int(input("Choose number: "))
      #If 1 is chosen follows by asking what metric distance to convert
     if choice== 1:
         print=(f_c())
@@ -96,11 +110,22 @@ if measure==3:
     else:
         print("Invalid Entry")
         
+if measure==4:
+     #menu to chose from either F to C or vice-versa
+    print("\n 1: KW to HP")
+    print(" 2: HP to KW\n")
+    choice=int(input("Choose number: "))
+     #If 1 is chosen follows by asking what metric distance to convert
+    if choice== 1:
+        print=(kw_hp())
+    
+    elif choice== 2:
+        print=(hp_kw())
+       
+    else:
+        print("Invalid Entry")
 
 
-
-# Done in 100419 04:00pm
-# Cradit to https://codereview.stackexchange.com/questions/66923/conversions-calculator
-# Thanks sir AungWinHtut    
+    
         
         
