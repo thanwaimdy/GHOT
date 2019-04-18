@@ -35,12 +35,12 @@ def c_f():
 
 def kw_hp():
     kw = float(input("\nEnter Kilowatt: "))
-    hp = (kw*0.746)
+    hp = (kw/0.746)
     print("HosePower = ", hp)
     
 def hp_kw():
     hp = float(input("\nEnter HosePower: "))
-    kw = (hp/0.746)
+    kw = (hp*0.746)
     print("KiloWatt = ", kw)
 
 
@@ -127,4 +127,4 @@ if measure==4:
 
 #Done by shwethwar in 18/4/19 at 4:53pm
 #Cradit to  https://codereview.stackexchange.com/questions/66923/conversions-calculator        
-#Thanks sir AungWinHtut       
+#Thanks Sir AungWinHtut       
