@@ -100,7 +100,7 @@ if measure==3:
 
 
 # Done in 100419 04:00pm
-# cradit to
-    
+# Cradit to https://codereview.stackexchange.com/questions/66923/conversions-calculator
+# Thanks sir AungWinHtut    
         
         
