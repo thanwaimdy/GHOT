@@ -126,6 +126,6 @@ if measure==4:
         print("Invalid Entry")
 
 
-    
-        
-        
+#Done by shwethwar in 18/4/19 at 4:53pm
+#Cradit to  https://codereview.stackexchange.com/questions/66923/conversions-calculator        
+#Thanks sir AungWinHtut       
