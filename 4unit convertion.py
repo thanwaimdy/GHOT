@@ -126,5 +126,5 @@ if measure==4:
 
 
 #Done by shwethwar in 18/4/19 at 4:53pm
-#Cradit to  https://codereview.stackexchange.com/questions/66923/conversions-calculator        
+#Reference https://codereview.stackexchange.com/questions/66923/conversions-calculator        
 #Thanks Sir AungWinHtut       
