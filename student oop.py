@@ -1,3 +1,4 @@
+
 class student:
     count=+1
     def __init__(self):
@@ -78,6 +79,9 @@ print(agag.major)
 agag.setfather_name("U Tet Toe")
 print(agag.father_name)
 print(agag.count)
+
+#Done on 220819
+#Thanks Sir Aung Win Htut
 
 
 
